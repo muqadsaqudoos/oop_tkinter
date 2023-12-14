@@ -22,14 +22,6 @@ button.pack()
 #Getting User Input With Entry Widgets
 entry = tk.Entry(fg="black", bg="white", width=50, command=entry.get())
 entry.pack()
-'''The interesting bit about Entry widgets isn’t how to style them, though. It’s how to use them to get input from a user.
- There are three main operations that you can perform with Entry widgets:
-
-Retrieving text with .get()
-Deleting text with .delete()
-Inserting text with .insert()'''
-
-
 
 window.mainloop()
 
